@@ -22,6 +22,7 @@ app.use('/api/dashboard', dashboardRoutes);
 app.use('/uploads/avatars', express.static('uploads/avatars'));
 app.use('/uploads/qr', express.static('uploads/qr'));
 app.use('/uploads/coupons', express.static('uploads/coupons'));
+app.use('/uploads/user-qr', express.static('uploads/user-qr'));
 
 
 const PORT = process.env.PORT || 4000;

@@ -24,6 +24,10 @@ const User = sequelize.define('User', {
   avatar: {
     type: DataTypes.STRING, allowNull: true 
   },
+  qrCodeImage: {
+    type: DataTypes.STRING,
+    allowNull: true
+  },
   email: {
     type: DataTypes.STRING, allowNull: false, unique: true
   },

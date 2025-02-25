@@ -7,9 +7,9 @@
 -- ========================
 INSERT INTO "Users" ("id", "fullName", "dni", "email", "password", "role", "points", "level", "createdAt", "updatedAt")
 VALUES 
-  (2, 'Juan Pérez',       '12345678A', 'juan@example.com',   'hashed_password1', 'client',       50, 'Blanco', NOW(), NOW()),
-  (3, 'María González',   '87654321B', 'maria@example.com',  'hashed_password2', 'admin',        10, 'Blanco', NOW(), NOW()),
-  (4, 'Carlos Ramírez',   '98765432C', 'carlos@example.com', 'hashed_password3', 'receptionist',  0, 'Blanco', NOW(), NOW());
+  (1, 'Juan Pérez',       '12345678A', 'juan@example.com',   'martin123', 'client',       0, 'Blanco', NOW(), NOW()),
+  (2, 'María González',   '87654321B', 'maria@example.com',  'martin123', 'admin',        0, 'Blanco', NOW(), NOW()),
+  (3, 'Carlos Ramírez',   '98765432C', 'carlos@example.com', 'martin123', 'receptionist',  0, 'Blanco', NOW(), NOW());
 
 -- ========================
 --   INSERTAR CUPONES
